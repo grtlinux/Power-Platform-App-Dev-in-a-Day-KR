@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABD6FBD1-6CDC-446A-8621-6450E3BABA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiKeyAuthApp", "src\ApiKeyAuthApp\ApiKeyAuthApp.csproj", "{ACD102F4-7B3C-4689-9769-42373F5CB619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD102F4-7B3C-4689-9769-42373F5CB619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD102F4-7B3C-4689-9769-42373F5CB619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD102F4-7B3C-4689-9769-42373F5CB619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD102F4-7B3C-4689-9769-42373F5CB619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACD102F4-7B3C-4689-9769-42373F5CB619} = {ABD6FBD1-6CDC-446A-8621-6450E3BABA66}
 	EndGlobalSection
 EndGlobal
